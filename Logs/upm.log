@@ -1,0 +1,23 @@
+[2026-10-09T13:45:21.045Z][INFO] Command-line: 'C:\\Program Files\\Unity\\Hub\\Editor\\6000.5.5f1\\Editor\\Data\\Resources\\PackageManager\\Server\\UnityPackageManager.exe' server -s 23336 --ipc-path Unity-Upm-23336 -l 2 --log-file 'C:\\Users\\ANUP KUMAR CHAUDHARY\\OneDrive\\Desktop\\chair projection ar\\chair projection ar/Logs/upm.log'
+[2026-10-09T13:45:21.195Z][INFO] IPC server started (IPC path=Unity-Upm-23336).
+[2026-10-09T13:45:21.195Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-23336.
+[2026-10-09T13:45:25.285Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-09T13:45:26.076Z][INFO] project:list-packages --> 200 (791 ms)
+[2026-10-09T13:45:34.690Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-09T13:45:35.180Z][INFO] project:list-packages --> 200 (491 ms)
+[2026-10-09T13:45:41.830Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-09T13:45:42.322Z][INFO] project:list-packages --> 200 (492 ms)
+[2026-10-09T13:45:42.918Z][INFO] packages:get-all-packageinfo <-- Request received
+params: {}
+[2026-10-09T13:45:42.935Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-09T13:45:44.426Z][INFO] packages:get-all-packageinfo --> 200 (1508 ms)
+[2026-10-09T13:45:44.782Z][INFO] project:list-packages --> 200 (1846 ms)
+[2026-10-09T13:45:48.989Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.collab-proxy"
+}
+[2026-10-09T13:45:50.196Z][INFO] packages:get-packageinfo --> 200 (1207 ms)

@@ -1,0 +1,1176 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.5f1 (d16e074b49fd) revision 13725191'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ANUP KUMAR CHAUDHARY" at "2026-10-09T05:03:30.344838Z"
+OS: 'Windows 11  (10.0.26300) CoreSingleLanguage' Language: 'en' Physical Memory: 15775 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-09T05:03:30Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.5.5f1\Editor\Unity.exe
+-projectpath
+C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar
+-acceptSoftwareTermsForThisRunOnly
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-licensingIpc
+LicenseClient-ANUP KUMAR CHAUDHARY
+-hubSessionId
+e3040369-491a-476f-a6f9-6f8bceb36f20
+-accessToken
+s80MxnPvgvnBKup_QVnmXeuTp_NhRW7-TxkENbJGY7Y00cf
+Successfully changed project path to: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar
+C:/Users/ANUP KUMAR CHAUDHARY/OneDrive/Desktop/chair projection ar/chair projection ar
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [5376]  Target information:
+
+Player connection [5376]  * "[IP] 172.25.248.203 [Port] 55504 [Flags] 2 [Guid] 618784059 [EditorId] 618784059 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-393C70IT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [5376] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [5376] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-20456" after 0.0 seconds.
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-ANUP KUMAR CHAUDHARY"
+[Licensing::IpcConnector] LicenseClient-ANUP KUMAR CHAUDHARY channel disconnected successfully.
+[Licensing::IpcConnector] Channel LicenseClient-ANUP KUMAR CHAUDHARY-6000.5.5 doesn't exist
+[Licensing::Module] Successfully launched the LicensingClient (PId: 17312)
+Starting IPC server.
+Waiting for clients to connect on \\.\pipe\Unity-LicenseClient-ANUP KUMAR CHAUDHARY-6000.5.5, press Ctrl-C to exit.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ANUP KUMAR CHAUDHARY-6000.5.5" at "2026-10-09T05:03:42.354553Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 17312, path: "C:/Program Files/Unity/Hub/Editor/6000.5.5f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              10b7088c3a934be6bccffdac655e1b7e
+  Correlation Id:          2bb9759194d97a9aaeb8345456bb5177
+  External correlation Id: 4269568053365847027
+  Machine Id:              OH+gFLu2+kKpYyHHcssIOIdEhwM=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-ANUP KUMAR CHAUDHARY-6000.5.5" (connect: 6.56s, validation: 0.43s, handshake: 0.06s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ANUP KUMAR CHAUDHARY-6000.5.5-notifications" at "2026-10-09T05:03:42.8404447Z"
+[Licensing::Module] Connected to LicensingClient (PId: 17312, launch time: 0.06, total connection time: 7.04s)
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token s80MxnPvgv...
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 13469952202004-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.03
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 12.57s
+[Licensing::Module] Licensing is initialized (took 9.93s).
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Active build profile path: `Assets/Settings/Build Profiles/Android™.asset`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Artifact Garbage Collection - Removed 1070 unused hashed content files
+[Licensing::Client] Successfully resolved entitlement details
+Got setting from build profile YAML, name `m_BuildTarget`, value `13`
+Got setting from build profile YAML, name `m_Subtarget`, value `0`
+Refreshing native plugins compatible for Editor in 5.31 ms, found 0 plugins.
+Initialize engine version: 6000.5.5f1 (d16e074b49fd)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.5.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ANUP KUMAR CHAUDHARY/OneDrive/Desktop/chair projection ar/chair projection ar/Assets
+[D3D12 Device Filter] Vendor Name: ATI
+[D3D12 Device Filter] Device Name: AMD Radeon(TM) Graphics
+[D3D12 Device Filter] Driver Version: 31.0.12044.62001
+[D3D12 Device Filter] Feature Level: 12.1
+[D3D12 Device Filter] Graphics Memory: 7887 MB
+[D3D12 Device Filter] Processor Count: 16
+[D3D12 Device Filter] Device Type: Integrated
+[D3D12 Device Filter] D3D12 API denied by user filter: {"Vendor": "ATI", "Device Type:": Integrated}
+GfxDevice: creating device client; kGfxThreadingModeThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1638)
+    Vendor:   ATI
+    VRAM:     7887 MB
+    Driver:   31.0.12044.62001
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.5.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.5.5f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.5.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.5.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.897603 seconds.
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.226 seconds
+Domain Reload Profiling: 7906ms
+	BeginReloadAssembly (756ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (14ms)
+	RebuildNativeTypeToScriptingClass (423ms)
+	initialDomainReloadingComplete (1360ms)
+	LoadAllAssembliesAndSetupDomain (4119ms)
+		LoadAssemblies (709ms)
+		AnalyzeDomain (3856ms)
+			TypeCache.Refresh (3853ms)
+				TypeCache.ScanAssembly (3352ms)
+	FinalizeReload (1234ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (210ms)
+			BeforeProcessingInitializeOnLoad (232ms)
+			ProcessInitializeOnLoadAttributes (301ms)
+			ProcessInitializeOnLoadMethodAttributes (282ms)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 63 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ai.navigation@2.0.14 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.ai.navigation@134dd6a3b97b)
+    com.unity.collab-proxy@2.13.3 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.collab-proxy@4f3be89e8675)
+    com.unity.ide.rider@3.0.38 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.19.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.inputsystem@21a28c3a6c83)
+    com.unity.timeline@1.8.12 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.timeline@8cd8509afae5)
+    com.unity.visualscripting@1.9.11 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.visualscripting@8bed5ad90189)
+    com.unity.xr.arcore@6.5.1 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.xr.arcore@35fea30a2719)
+    com.unity.xr.arfoundation@6.5.1 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.xr.arfoundation@c844efe2a48d)
+    com.unity.xr.core-utils@2.6.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.xr.core-utils@a8b900321199)
+    com.unity.xr.management@4.5.4 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.xr.management@e3a3882b360a)
+    com.unity.editorcoroutines@1.1.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.editorcoroutines@87a15ed012c2)
+    com.unity.xr.legacyinputhelpers@3.0.1 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.xr.legacyinputhelpers@3f62d634f63b)
+    com.unity.searcher@4.9.4 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.searcher@d45a78918735)
+    com.unity.burst@1.8.29 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.burst@6bb9aca3ef38)
+    com.unity.nuget.mono-cecil@1.11.6 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.test-framework.performance@3.5.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.test-framework.performance@8b56083ec0f0)
+  Built-in packages:
+    com.unity.multiplayer.center@1.0.1 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.multiplayer.center@b860850997d0)
+    com.unity.render-pipelines.universal@17.5.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa)
+    com.unity.test-framework@1.7.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.test-framework@1405238725ab)
+    com.unity.ugui@2.5.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.ugui@f2d87ebaaa32)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.mathematics@1.4.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.mathematics@981956d94fb6)
+    com.unity.ext.nunit@2.1.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.ext.nunit@44f7d31723bd)
+    com.unity.render-pipelines.core@17.5.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65)
+    com.unity.shadergraph@17.5.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.shadergraph@8d7376ec43ee)
+    com.unity.render-pipelines.universal-config@17.5.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.render-pipelines.universal-config@fdda01c80fe3)
+    com.unity.collections@6.5.0 (location: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.collections@a43cabe808ca)
+[Subsystems] Looking for new subsystems at path C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.xr.arfoundation@c844efe2a48d
+[Subsystems] Novel subsystem found at Library/PackageCache/com.unity.xr.arfoundation@c844efe2a48d/Runtime/UnitySubsystemsManifest.json
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.5.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ANUP KUMAR CHAUDHARY/OneDrive/Desktop/chair projection ar/chair projection ar/Assets
+[Subsystems] Discovering subsystems at path C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\Library\PackageCache\com.unity.xr.arfoundation@c844efe2a48d
+[Subsystems] No descriptors matched for  examples in Library/PackageCache/com.unity.xr.arfoundation@c844efe2a48d/Runtime/UnitySubsystemsManifest.json.
+[Subsystems] 1 'inputs' descriptors matched in Library/PackageCache/com.unity.xr.arfoundation@c844efe2a48d/Runtime/UnitySubsystemsManifest.json
+[Subsystems] No descriptors matched for  displays in Library/PackageCache/com.unity.xr.arfoundation@c844efe2a48d/Runtime/UnitySubsystemsManifest.json.
+[Subsystems] 1 'meshings' descriptors matched in Library/PackageCache/com.unity.xr.arfoundation@c844efe2a48d/Runtime/UnitySubsystemsManifest.json
+[Package Manager] Done registering packages in 0.08 seconds
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:80
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 66.9064ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.5.5f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1300b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/ANUP KUMAR CHAUDHARY/OneDrive/Desktop/chair projection ar/chair projection ar
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.5.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.5.5f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll"
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.componentmodel.composition has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.5.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.ComponentModel.Composition.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.5.5f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll"
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Burst.Cecil, Version=0.11.6.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library\PackageCache\com.unity.burst@6bb9aca3ef38\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Mono.Cecil, Version=0.11.5.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff\Mono.Cecil.dll
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - 200 - application/grpc 1312.8155ms
+ExitCode: 0 Duration: 2s528ms
+[ 908/1170  1s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (2.38 seconds), 1 items updated, 1170 evaluated
+AssetDatabase: script compilation time: 4.205531s
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 279.29 ms, found 5 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 11.93 ms, found 5 plugins.
+[Licensing::Client] Successfully resolved entitlement details
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 11.583 seconds
+Domain Reload Profiling: 18158ms
+	BeginReloadAssembly (683ms)
+		DisableScriptedObjects (68ms)
+		CreateAndSetChildDomain (196ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (36ms)
+	initialDomainReloadingComplete (198ms)
+	LoadAllAssembliesAndSetupDomain (5636ms)
+		LoadAssemblies (4636ms)
+		AnalyzeDomain (909ms)
+			TypeCache.Refresh (665ms)
+				TypeCache.ScanAssembly (637ms)
+			BuildScriptInfoCaches (217ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (11586ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			BeforeProcessingInitializeOnLoad (231ms)
+			ProcessInitializeOnLoadAttributes (8018ms)
+			ProcessInitializeOnLoadMethodAttributes (796ms)
+			AfterProcessingInitializeOnLoad (25ms)
+		AwakeInstancesAfterBackupRestoration (69ms)
+Starting new worker id: 0 with log in C:/Users/ANUP KUMAR CHAUDHARY/OneDrive/Desktop/chair projection ar/chair projection ar/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=d2a7b7ca6b68ace498366cd163be1e04): Total: 42.949 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=31524 ms
+		Asset DB Callback time: managed=81 ms, native=125 ms
+		Scripting: domain reloads=1, domain reload time=6785 ms, compile time=4213 ms, other=218 ms
+		Project Asset Count: scripts=1593, non-scripts=2453
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 132.482ms
+	ApplyChangesToAssetFolders: 2.165ms
+	Scan: 311.686ms
+	Collect global state as custom dependencies: 16.211ms
+	CategorizeScriptCompilationAssets: 3766.113ms
+	ProcessAssetsWithTransientArtifactChanges: 229.689ms
+	CategorizeAssets: 143.719ms
+	CompileScripts: 4213.218ms
+	ImportOutOfDateAssets: 12081.369ms (11937.094ms without children)
+		ReloadNativeAssets: 0.095ms
+		UnloadImportedAssets: 1.936ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 2.017ms
+		ImportSchedulerStart: 140.218ms
+	PostProcessAllAssets: 82.050ms
+		MonoPostProcessAllAssets: 81.941ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 30.666ms
+			SyncVS.PostprocessSyncProject 11.506ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 5.511ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 4.464ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 2.180ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 1.733ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.813ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.701ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.675ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.601ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.445ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.422ms
+	UnloadStreamsBegin: 4.528ms
+	PersistCurrentRevisions: 0.216ms
+	GenerateScriptTypeHashes: 6.873ms
+	GenerateScriptTypeSerializationHashes: 12.209ms
+	Untracked: 21947.935ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Scanning for USB devices : 3.982ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-chair projection ar
+Unloading 50 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/SampleScene.unity'
+	Deserialize:            57.542 ms
+	Integration:            687.870 ms
+	Integration of assets:  0.296 ms
+	Thread Wait Time:       0.012 ms
+	Total Operation Time:   745.721 ms
+Unloading 7498 unused Assets / (14.7 MB). Loaded Objects now: 8424.
+Memory consumption went from 440.6 MB to 425.9 MB.
+Total: 38.069700 ms (FindLiveObjects: 2.343200 ms CreateObjectMapping: 6.953200 ms MarkObjects: 15.145200 ms  DeleteObjects: 13.619700 ms)
+
+[LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
+Worker ready: AssetImportWorkerHW0 0
+[LAYOUT] About to save layout C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/ANUP KUMAR CHAUDHARY/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+<RI> Initializing input.
+Using Windows.Gaming.Input
+D3D11 device created for Microsoft Media Foundation video decoding.
+[Project] Loading completed in 102.710 seconds
+	Project init time: 				88.887 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		9.935 seconds
+		Asset Database init time: 		2.546 seconds
+		Global illumination init time: 	0.012 seconds
+		Assemblies load time: 			24.628 seconds
+		Unity extensions init time: 	0.100 seconds
+		Asset Database refresh time: 	42.949 seconds
+	Scene opening time: 			13.459 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1791522313008,"processId":20456,"projectLoad":102.7104817,"projectInit":88.8872403,"templateInit":0.0,"packageManagerInit":9.935472,"assetDatabaseInit":2.5461416,"globalIlluminationInit":0.01185,"assembliesLoad":24.6276646,"unityExtensionsInit":0.0995005,"assetDatabaseRefresh":42.9490947,"sceneOpening":13.4593718}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1791522313009,"processId":20456,"editorVersion":"6000.5.5f1 (d16e074b49fd)","branch":"6000.5/staging","buildType":"Release","platform":"Windows"}
+Asset Pipeline Refresh (id=4aece1323e39fc04fb1bf982f7149447): Total: 0.267 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Licensing::Client] Successfully resolved entitlement details
+GPU Resident Drawer created.
+Android Extension - Scanning For ADB Devices 3320 ms
+[Licensing::Client] Successfully resolved entitlement details
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Request Asset Garbage Collect because used heap size increased from 426.3 MB to 0.71 GB, exceeding the threshold of 256.0 MB.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+Created GICache directory at C:/Users/ANUP KUMAR CHAUDHARY/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.083s, timestamps: [103.043 - 103.126]
+Unloading 44 unused Assets / (1.4 KB). Loaded Objects now: 9729.
+Memory consumption went from 0.71 GB to 0.71 GB.
+Total: 36.197600 ms (FindLiveObjects: 0.913400 ms CreateObjectMapping: 2.428100 ms MarkObjects: 30.994200 ms  DeleteObjects: 1.857900 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Android Extension - Scanning For ADB Devices 590 ms
+Asset Pipeline Refresh (id=50308e3e1f81f9b4f91b7bd6e490f1f6): Total: 0.011 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "s80MxnPv"... (expires: 2026-10-09T06:21:58Z)
+Attempted to call .Dispose on an already disposed CancellationTokenSource
+Starting new worker id: 1 with log in C:/Users/ANUP KUMAR CHAUDHARY/OneDrive/Desktop/chair projection ar/chair projection ar/Logs/AssetImportWorkerHW1.log
+Android Extension - Scanning For ADB Devices 407 ms
+[Worker0] Imported GUID: bf34772eb86ca2a48b326ccfb8a1ac62 - Path: Assets/Editor - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '59d55a9f9c50b31207b92a48c8bfad3f') in 0.1661187 seconds
+[Worker0] Imported GUID: 14f989f1a9cf6fe4a9722df73ac93cca - Path: Assets/Editor/BuildScript.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c98cd548b50494ccb4a6574fd598df07') in 0.1056292 seconds
+Android Extension - Scanning For ADB Devices 421 ms
+UPID Received '415b361a-c0bf-426c-8093-34bdb9116b20'.
+[Licensing::Client] Successfully resolved entitlement details
+Worker ready: AssetImportWorkerHW1 1
+TrimDiskCacheJob: Current cache size 0mb
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=9535897995f0a8e48816eb93d4197418): Total: 0.019 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Curl error 35: Handshake failed. UnityTls error code: 7
+Scanning for USB devices : 3.844ms
+Attempted to call .Dispose on an already disposed CancellationTokenSource
+Android Extension - Scanning For ADB Devices 2098 ms
+Android Extension - Scanning For ADB Devices 421 ms
+Attempted to call .Dispose on an already disposed CancellationTokenSource
+Android Extension - Scanning For ADB Devices 417 ms
+Android Extension - Scanning For ADB Devices 409 ms
+Asset Pipeline Refresh (id=7895575e4e8131e4fba858f0f7eff9da): Total: 0.023 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+GPU Resident Drawer disposed.
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Attempted to call .Dispose on an already disposed CancellationTokenSource
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 29.16 ms, found 5 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Refreshing native plugins compatible for Editor in 14.09 ms, found 5 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 12.661 seconds
+Domain Reload Profiling: 15493ms
+	BeginReloadAssembly (1938ms)
+		DisableScriptedObjects (287ms)
+		CreateAndSetChildDomain (1185ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (37ms)
+	initialDomainReloadingComplete (211ms)
+	LoadAllAssembliesAndSetupDomain (617ms)
+		LoadAssemblies (438ms)
+		AnalyzeDomain (85ms)
+			TypeCache.Refresh (13ms)
+			ResolveRequiredComponents (62ms)
+	FinalizeReload (12663ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (41ms)
+			BeforeProcessingInitializeOnLoad (232ms)
+			ProcessInitializeOnLoadAttributes (1229ms)
+			ProcessInitializeOnLoadMethodAttributes (378ms)
+			AfterProcessingInitializeOnLoad (19ms)
+		AwakeInstancesAfterBackupRestoration (9403ms)
+No restricted APIs configured; Validation skipped.
+Checking 23 assemblies for restricted APIs found 0 usage(s) in 8 ms
+Refreshing native plugins compatible for Editor in 12.05 ms, found 5 plugins.
+
+Asset Pipeline Refresh (id=498d647e62ea2694f9989df0ec4567d7): Total: 25.166 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=13603 ms
+		Asset DB Callback time: managed=5405 ms, native=2877 ms
+		Scripting: domain reloads=1, domain reload time=3274 ms, compile time=5 ms, other=0 ms
+		Project Asset Count: scripts=1593, non-scripts=2453
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 6.377ms
+	ApplyChangesToAssetFolders: 0.780ms
+	Collect global state as custom dependencies: 35.159ms
+	ProcessAssetsWithTransientArtifactChanges: 499.063ms
+	CategorizeAssets: 110.834ms
+	CompileScripts: 4.617ms
+	ImportOutOfDateAssets: 12803.139ms (12734.483ms without children)
+		CollectScriptTypesHashes: 4.217ms
+		ReloadNativeAssets: 2.747ms
+		UnloadImportedAssets: 3.389ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.580ms
+		ImportSchedulerStart: 60.898ms
+	PostProcessAllAssets: 8247.387ms
+		AssemblyValidation.PostprocessAllAssets 87.102ms
+		PostprocessAssetsUpdateCachedIcon 48.403ms
+		PostProcessCallbackCreateDeferredMaterials 47.414ms
+		ComputeShaderImportPostprocess 26.695ms
+		ShaderAssetModifiedCallback 25.328ms
+		RaytracingShaderImportPostprocess 24.303ms
+		SpeedTreeImporter.PostprocessAllAssets 21.730ms
+		BlockShaderImporter.PostprocessAllAssets 9.460ms
+		LocalizationDatabase.AssetDatabasePostprocessCallback 9.119ms
+		XRBuildSystem.XRAssetImported 3.916ms
+		SpriteAtlasDatabase.OnAssetPostprocessCallback 0.412ms
+		MonoPostProcessAllAssets: 5398.381ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 3211.572ms
+			SyncVS.PostprocessSyncProject 685.658ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 598.885ms
+			AssetPostprocessor.OnPostprocessAllAssets 129.320ms
+			PostProcessor.OnPostprocessAllAssets 112.476ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 94.402ms
+			MaterialPostprocessor.OnPostprocessAllAssets 82.334ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 82.244ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 55.073ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 37.752ms
+			AssetChangedListener.OnPostprocessAllAssets 33.939ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 22.088ms
+			AssetCallbacks.OnPostprocessAllAssets 21.224ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 19.957ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 16.961ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 7.022ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 6.835ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 2.275ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 1.443ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 1.297ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 1.101ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.945ms
+			SampleDependencyImporterPostProcessor.OnPostprocessAllAssets 0.944ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.872ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.858ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.788ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.776ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.754ms
+			AssetEvents.OnPostprocessAllAssets 0.731ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.654ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.574ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.563ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.532ms
+			EnvironmentAssetPostprocessor.OnPostprocessAllAssets 0.511ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.456ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.311ms
+	PostAssetChangesProfiler: 35.407ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.308ms
+	UnloadStreamsBegin: 2.658ms
+	PersistCurrentRevisions: 0.223ms
+	GenerateScriptTypeHashes: 9.289ms
+	GenerateScriptTypeSerializationHashes: 15.114ms
+	Untracked: 3389.591ms
+
+No active UnityEngine.XR.XRInputSubsystem is available. Please ensure that a valid loader configuration exists in the XR project settings.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.XR.ARFoundation.ARInputManager:GetActiveSubsystemInstance () (at ./Library/PackageCache/com.unity.xr.arfoundation@c844efe2a48d/Runtime/ARFoundation/Input/ARInputManager.cs:58)
+UnityEngine.XR.ARFoundation.ARInputManager:OnEnable () (at ./Library/PackageCache/com.unity.xr.arfoundation@c844efe2a48d/Runtime/ARFoundation/Input/ARInputManager.cs:25)
+
+(Filename: ./Library/PackageCache/com.unity.xr.arfoundation@c844efe2a48d/Runtime/ARFoundation/Input/ARInputManager.cs Line: 58)
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            5.638 ms
+	Integration:            862.761 ms
+	Integration of assets:  0.008 ms
+	Thread Wait Time:       0.026 ms
+	Total Operation Time:   868.432 ms
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+No active UnityEngine.XR.ARSubsystems.XRSessionSubsystem is available. This feature is either not supported on the current platform, or you may need to enable a provider in <b>Project Settings</b> > <b>XR Plug-in Management</b>.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.XR.ARFoundation.SubsystemLifecycleManager`3/<FindAndStartSubsystemAsync>d__11<UnityEngine.XR.ARSubsystems.XRSessionSubsystem, UnityEngine.XR.ARSubsystems.XRSessionSubsystemDescriptor, UnityEngine.XR.ARSubsystems.XRSessionSubsystem/Provider>:MoveNext () (at ./Library/PackageCache/com.unity.xr.arfoundation@c844efe2a48d/Runtime/ARFoundation/Common/SubsystemLifecycleManager.cs:91)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+UnityEngine.Awaitable:RunOrScheduleContinuation (UnityEngine.Awaitable/AwaiterCompletionThreadAffinity,System.Action)
+UnityEngine.Awaitable:RaiseManagedCompletion ()
+UnityEngine.Awaitable/DoubleBufferedAwaitableList:SwapAndComplete ()
+UnityEngine.Awaitable:OnUpdate ()
+
+(Filename: ./Library/PackageCache/com.unity.xr.arfoundation@c844efe2a48d/Runtime/ARFoundation/Common/SubsystemLifecycleManager.cs Line: 91)
+
+No active UnityEngine.XR.ARSubsystems.XRCameraSubsystem is available. This feature is either not supported on the current platform, or you may need to enable a provider in <b>Project Settings</b> > <b>XR Plug-in Management</b>.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.XR.ARFoundation.SubsystemLifecycleManager`3/<FindAndStartSubsystemAsync>d__11<UnityEngine.XR.ARSubsystems.XRCameraSubsystem, UnityEngine.XR.ARSubsystems.XRCameraSubsystemDescriptor, UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider>:MoveNext () (at ./Library/PackageCache/com.unity.xr.arfoundation@c844efe2a48d/Runtime/ARFoundation/Common/SubsystemLifecycleManager.cs:91)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+UnityEngine.Awaitable:RunOrScheduleContinuation (UnityEngine.Awaitable/AwaiterCompletionThreadAffinity,System.Action)
+UnityEngine.Awaitable:RaiseManagedCompletion ()
+UnityEngine.Awaitable/DoubleBufferedAwaitableList:SwapAndComplete ()
+UnityEngine.Awaitable:OnUpdate ()
+
+(Filename: ./Library/PackageCache/com.unity.xr.arfoundation@c844efe2a48d/Runtime/ARFoundation/Common/SubsystemLifecycleManager.cs Line: 91)
+
+No active UnityEngine.XR.ARSubsystems.XRRaycastSubsystem is available. This feature is either not supported on the current platform, or you may need to enable a provider in <b>Project Settings</b> > <b>XR Plug-in Management</b>.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.XR.ARFoundation.SubsystemLifecycleManager`3/<FindAndStartSubsystemAsync>d__11<UnityEngine.XR.ARSubsystems.XRRaycastSubsystem, UnityEngine.XR.ARSubsystems.XRRaycastSubsystemDescriptor, UnityEngine.XR.ARSubsystems.XRRaycastSubsystem/Provider>:MoveNext () (at ./Library/PackageCache/com.unity.xr.arfoundation@c844efe2a48d/Runtime/ARFoundation/Common/SubsystemLifecycleManager.cs:91)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+UnityEngine.Awaitable:RunOrScheduleContinuation (UnityEngine.Awaitable/AwaiterCompletionThreadAffinity,System.Action)
+UnityEngine.Awaitable:RaiseManagedCompletion ()
+UnityEngine.Awaitable/DoubleBufferedAwaitableList:SwapAndComplete ()
+UnityEngine.Awaitable:OnUpdate ()
+
+(Filename: ./Library/PackageCache/com.unity.xr.arfoundation@c844efe2a48d/Runtime/ARFoundation/Common/SubsystemLifecycleManager.cs Line: 91)
+
+No active UnityEngine.XR.ARSubsystems.XRPlaneSubsystem is available. This feature is either not supported on the current platform, or you may need to enable a provider in <b>Project Settings</b> > <b>XR Plug-in Management</b>.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.XR.ARFoundation.SubsystemLifecycleManager`3/<FindAndStartSubsystemAsync>d__11<UnityEngine.XR.ARSubsystems.XRPlaneSubsystem, UnityEngine.XR.ARSubsystems.XRPlaneSubsystemDescriptor, UnityEngine.XR.ARSubsystems.XRPlaneSubsystem/Provider>:MoveNext () (at ./Library/PackageCache/com.unity.xr.arfoundation@c844efe2a48d/Runtime/ARFoundation/Common/SubsystemLifecycleManager.cs:91)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+UnityEngine.Awaitable:RunOrScheduleContinuation (UnityEngine.Awaitable/AwaiterCompletionThreadAffinity,System.Action)
+UnityEngine.Awaitable:RaiseManagedCompletion ()
+UnityEngine.Awaitable/DoubleBufferedAwaitableList:SwapAndComplete ()
+UnityEngine.Awaitable:OnUpdate ()
+
+(Filename: ./Library/PackageCache/com.unity.xr.arfoundation@c844efe2a48d/Runtime/ARFoundation/Common/SubsystemLifecycleManager.cs Line: 91)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            3.366 ms
+	Integration:            523.947 ms
+	Integration of assets:  0.005 ms
+	Thread Wait Time:       0.019 ms
+	Total Operation Time:   527.338 ms
+Unloading 6732 unused Assets / (25.6 MB). Loaded Objects now: 9616.
+Memory consumption went from 0.74 GB to 0.72 GB.
+Total: 38.992200 ms (FindLiveObjects: 0.966300 ms CreateObjectMapping: 3.251500 ms MarkObjects: 22.291600 ms  DeleteObjects: 12.481000 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+GPU Resident Drawer created.
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Curl error 6: Send failure: Connection was reset
+UnityConnectWebRequestException: Token Exchange failed due a failure with the web request.
+  at UnityEditor.Connect.TokenExchange.VerifyTokenExchangeResponse (UnityEngine.Networking.UnityWebRequest exchangeRequest) [0x00014] in <7e18efd2f0d74a72a5b8b42f8f47e22d>:0 
+  at UnityEditor.Connect.TokenExchange.TokenExchangeRequestAsync (UnityEditor.Connect.TokenExchangeRequest tokenExchangeRequest, System.Threading.CancellationToken cancellationToken) [0x00195] in <7e18efd2f0d74a72a5b8b42f8f47e22d>:0 
+  at UnityEditor.Connect.TokenExchange.GetServiceTokenAsync (System.String genesisToken, System.Threading.CancellationToken cancellationToken) [0x0007b] in <7e18efd2f0d74a72a5b8b42f8f47e22d>:0 
+  at UnityEditor.Connect.ServiceToken.GetServiceTokenAsync (System.String genesisToken, System.Threading.CancellationToken cancellationToken) [0x000f3] in <7e18efd2f0d74a72a5b8b42f8f47e22d>:0 
+  at UnityEditor.Connect.UnityConnect.RequestNewServiceToken () [0x00080] in <7e18efd2f0d74a72a5b8b42f8f47e22d>:0 
+  at System.Runtime.CompilerServices.AsyncMethodBuilderCore+<>c.<ThrowAsync>b__7_0 (System.Object state) [0x00000] in <816f70bc2a9c4332b0bd119906a8d40e>:0 
+  at UnityEngine.UnitySynchronizationContext+WorkRequest.Invoke () [0x00000] in <31995d14579b46ad8dd078d2fe61a81c>:0 
+  at UnityEngine.UnitySynchronizationContext.Exec () [0x00052] in <31995d14579b46ad8dd078d2fe61a81c>:0 
+  at UnityEngine.UnitySynchronizationContext.ExecuteTasks () [0x0000e] in <31995d14579b46ad8dd078d2fe61a81c>:0 
+
+Curl error 6: Could not resolve host: engine-data.services.api.unity.com
+CrashReporter::GetInsightsSignedUrlAsync should only be called from the main thread
+Curl error 6: Could not resolve host: engine-data.services.api.unity.com
+CrashReporter::GetInsightsSignedUrlAsync should only be called from the main thread
+Curl error 6: Could not resolve host: engine-data.services.api.unity.com
+CrashReporter::GetInsightsSignedUrlAsync should only be called from the main thread
+Curl error 6: Could not resolve host: engine-data.services.api.unity.com
+Project ID request failed, Reason: Send failure: Connection was aborted (0).
+Unknown Unity Connect error (408). Please contact support at support@unity.com while processing request "https://services.unity.com/api/unity/legacy/v1/projects/415b361a-c0bf-426c-8093-34bdb9116b20", HTTP error code 0
+.[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+[Licensing::Client] Successfully resolved entitlement details
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 1.2892ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.5.5f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1300b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/ANUP KUMAR CHAUDHARY/OneDrive/Desktop/chair projection ar/chair projection ar
+[Licensing::Client] Successfully resolved entitlement details
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Current configuration matches the requested one, skipping
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - 200 - application/grpc 2.3270ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      Processing assembly Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp.dll, with 151 defines and 359 references
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running Unity.Jobs.CodeGen.JobsILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null with Library\Bee\artifacts\1300b0aE.dag\Unity.Collections.dll
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null with C:\Program Files\Unity\Hub\Editor\6000.5.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null with C:\Program Files\Unity\Hub\Editor\6000.5.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Scripting, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null with C:\Program Files\Unity\Hub\Editor\6000.5.5f1\Editor\Data\Managed\UnityEngine\Unity.Scripting.dll
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Burst.Cecil.Rocks, Version=0.11.6.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library\PackageCache\com.unity.burst@6bb9aca3ef38\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - 200 - application/grpc 1586.8003ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      Processing assembly Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp-Editor.dll, with 149 defines and 385 references
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running Unity.Jobs.CodeGen.JobsILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - 200 - application/grpc 18.7144ms
+ExitCode: 0 Duration: 6s588ms
+[ 906/1170  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[1162/1170  3s] Csc Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp.dll (+2 others)
+[1163/1170  1s] ILPostProcess Library/Bee/artifacts/1300b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp.dll, with 151 defines and 359 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[1164/1170  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+[1165/1170  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[1166/1170  2s] Csc Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+Assets\Editor\BuildScript.cs(45,48): warning CS0618: 'AndroidSdkVersions.AndroidApiLevel24' is obsolete: 'Minimum supported Android API level is 26 (Android 8.0 Oreo). Please use AndroidApiLevel26 or higher. This warning will become an error on a next release.'
+[1167/1170  0s] ILPostProcess Library/Bee/artifacts/1300b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp-Editor.dll, with 149 defines and 385 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[1168/1170  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[1169/1170  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+*** Tundra build success (6.52 seconds), 9 items updated, 1170 evaluated
+Assets\Editor\BuildScript.cs(45,48): warning CS0618: 'AndroidSdkVersions.AndroidApiLevel24' is obsolete: 'Minimum supported Android API level is 26 (Android 8.0 Oreo). Please use AndroidApiLevel26 or higher. This warning will become an error on a next release.'
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+GPU Resident Drawer disposed.
+Refreshing native plugins compatible for Editor in 8.43 ms, found 5 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Refreshing native plugins compatible for Editor in 4.78 ms, found 5 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.432 seconds
+Domain Reload Profiling: 4219ms
+	BeginReloadAssembly (1206ms)
+		DisableScriptedObjects (178ms)
+		CreateAndSetChildDomain (692ms)
+	RebuildCommonClasses (11ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (89ms)
+	LoadAllAssembliesAndSetupDomain (462ms)
+		LoadAssemblies (163ms)
+		AnalyzeDomain (263ms)
+			TypeCache.Refresh (12ms)
+			BuildScriptInfoCaches (223ms)
+			ResolveRequiredComponents (26ms)
+	FinalizeReload (2433ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			BeforeProcessingInitializeOnLoad (210ms)
+			ProcessInitializeOnLoadAttributes (472ms)
+			ProcessInitializeOnLoadMethodAttributes (152ms)
+			AfterProcessingInitializeOnLoad (9ms)
+		AwakeInstancesAfterBackupRestoration (973ms)
+Refreshing native plugins compatible for Editor in 4.94 ms, found 5 plugins.
+
+Asset Pipeline Refresh (id=5ed351dd7d6f3fa499ea6575953cafcb): Total: 11.606 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=2657 ms
+		Asset DB Callback time: managed=114 ms, native=9 ms
+		Scripting: domain reloads=1, domain reload time=1929 ms, compile time=6895 ms, other=0 ms
+		Project Asset Count: scripts=1593, non-scripts=2453
+		Asset File Changes: new=0, changed=2, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 4.290ms
+	ApplyChangesToAssetFolders: 0.730ms
+	Scan: 30.250ms
+	Collect global state as custom dependencies: 10.128ms
+	OnSourceAssetsModified: 1.249ms
+	CategorizeScriptCompilationAssets: 0.079ms
+	ProcessAssetsWithTransientArtifactChanges: 6.324ms
+	CategorizeAssets: 57.723ms
+	CompileScripts: 6895.030ms
+	ImportOutOfDateAssets: 2494.089ms (2460.885ms without children)
+		CollectScriptTypesHashes: 2.469ms
+		ReloadNativeAssets: 1.373ms
+		UnloadImportedAssets: 0.192ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.763ms
+		ImportSchedulerStart: 30.847ms
+	PostProcessAllAssets: 116.118ms
+		XRBuildSystem.XRAssetImported 1.465ms
+		MonoPostProcessAllAssets: 113.743ms
+			AssetCallbacks.OnPostprocessAllAssets 48.664ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 12.267ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 7.058ms
+			AssetChangedListener.OnPostprocessAllAssets 5.711ms
+			AssetPostprocessor.OnPostprocessAllAssets 4.638ms
+			SyncVS.PostprocessSyncProject 3.491ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 3.305ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 2.066ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.911ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 1.536ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.413ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.086ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.960ms
+			MaterialPostprocessor.OnPostprocessAllAssets 0.804ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.641ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.577ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.481ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.454ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.400ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.348ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.338ms
+			SampleDependencyImporterPostProcessor.OnPostprocessAllAssets 0.327ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.313ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.312ms
+			PostProcessor.OnPostprocessAllAssets 0.303ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.290ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.267ms
+			AssetEvents.OnPostprocessAllAssets 0.263ms
+			EnvironmentAssetPostprocessor.OnPostprocessAllAssets 0.219ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.206ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.169ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.168ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.162ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.148ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.135ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.086ms
+	PostAssetChangesProfiler: 5.700ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.489ms
+	UnloadStreamsBegin: 3.796ms
+	PersistCurrentRevisions: 0.152ms
+	GenerateScriptTypeHashes: 3.499ms
+	GenerateScriptTypeSerializationHashes: 5.801ms
+	Untracked: 1970.342ms
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Curl error 6: Could not resolve host: engine-data.unity3d.com
+GPU Resident Drawer created.
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Asset Pipeline Refresh (id=c8239e3e7cf9fcd4983ed790411ad728): Total: 0.006 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Curl error 6: Could not resolve host: engine-data.unity3d.com
+Asset Pipeline Refresh (id=1b3fc3895f9aca547a1f89c53601af7b): Total: 0.007 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Project ID request failed, Reason: The requested URL returned error: 401 (401).
+Unknown Unity Connect error (400). Please contact support at support@unity.com while processing request "https://services.unity.com/api/unity/legacy/v1/projects/415b361a-c0bf-426c-8093-34bdb9116b20", HTTP error code 401
+.[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "5VO6_d9l"... (expires: 2026-10-09T08:54:44Z)
+UPID Received '415b361a-c0bf-426c-8093-34bdb9116b20'.
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=58d1edca8445a9b4c8db3727879aee12): Total: 0.006 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=b23878383dd9bb44c9e4eb90d84c4e3a): Total: 0.005 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=93ac21984fda24545a2e7d543c8e6764): Total: 0.006 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Curl error 42: Callback aborted
+Curl error 42: Callback aborted
+Curl error 42: Callback aborted
+Curl error 6: Recv failure: Connection was reset
+Curl error 42: Callback aborted
+Asset Pipeline Refresh (id=bc6c72c072479e84790c07c5338314b4): Total: 0.006 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=1ec4a6071e8b8394da90b0efa66e6c6f): Total: 0.006 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+[Licensing::Client] Successfully resolved entitlement details
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 0.2813ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.5.5f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1300b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/ANUP KUMAR CHAUDHARY/OneDrive/Desktop/chair projection ar/chair projection ar
+[Licensing::Client] Successfully resolved entitlement details
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Current configuration matches the requested one, skipping
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - 200 - application/grpc 1.8398ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      Processing assembly Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp.dll, with 151 defines and 359 references
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running Unity.Jobs.CodeGen.JobsILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - 200 - application/grpc 12.0284ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      Processing assembly Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp-Editor.dll, with 149 defines and 385 references
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running Unity.Jobs.CodeGen.JobsILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - 200 - application/grpc 13.1499ms
+ExitCode: 0 Duration: 2s161ms
+[ 906/1170  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[1162/1170  1s] Csc Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp.dll (+2 others)
+Assets\script\maneger.cs(27,18): warning CS0414: The field 'ChairPlacer.isDragging' is assigned but its value is never used
+[1163/1170  0s] ILPostProcess Library/Bee/artifacts/1300b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp.dll, with 151 defines and 359 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[1164/1170  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[1165/1170  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+[1166/1170  0s] Csc Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+[1167/1170  0s] ILPostProcess Library/Bee/artifacts/1300b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp-Editor.dll, with 149 defines and 385 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[1168/1170  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+[1169/1170  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+*** Tundra build success (2.13 seconds), 9 items updated, 1170 evaluated
+Assets\script\maneger.cs(27,18): warning CS0414: The field 'ChairPlacer.isDragging' is assigned but its value is never used
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+GPU Resident Drawer disposed.
+Total cache size 176019832
+Total cache size after purge 176019832, took 00:00:00.5799014
+Refreshing native plugins compatible for Editor in 6.47 ms, found 5 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 17.745 seconds
+Domain Reload Profiling: 19407ms
+	BeginReloadAssembly (1092ms)
+		DisableScriptedObjects (212ms)
+		CreateAndSetChildDomain (550ms)
+	RebuildCommonClasses (11ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (462ms)
+		LoadAssemblies (164ms)
+		AnalyzeDomain (261ms)
+			TypeCache.Refresh (10ms)
+			BuildScriptInfoCaches (222ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (17746ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			BeforeProcessingInitializeOnLoad (205ms)
+			ProcessInitializeOnLoadAttributes (458ms)
+			ProcessInitializeOnLoadMethodAttributes (145ms)
+			AfterProcessingInitializeOnLoad (8ms)
+		AwakeInstancesAfterBackupRestoration (16310ms)
+Importing 'GUID: 04effeb0efc215f4491ac7b3803c17af - Path: Assets/model/48.mtl' with importer (DefaultImporter)
+Imported 'GUID: 04effeb0efc215f4491ac7b3803c17af' -> (Import Result ID: '6a331e042a60b632ddafba68b471e835') in 0.040 seconds [static dependencies only]. Details - ImportResultOutputID=5a089564c9b374985c4708c8981e76db DependenciesID=6b820ff1715e83d8d06ab4aa342de1ee StaticDependenciesID=d57477780b23f005dab09ba3441f4369 
+Importing 'GUID: bbaeb1912864ca545abb05d0e80592d1 - Path: Assets/model/48.obj' with importer (FBXImporter)
+ImportFBX Warnings:
+Can't import normals, because mesh 'default' doesn't have any.
+Mesh 'default' has no normals. Recalculating normals.
+Imported 'GUID: bbaeb1912864ca545abb05d0e80592d1' -> (Import Result ID: 'e88b7a41a62c0399ef85380f4372fc11') in 0.097 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f0e342a6c6ef025f2446e28a2e9bfcdf DependenciesID=bd255b4bb36d9bab425ea6e465d47961 StaticDependenciesID=071bbbf16ca50779ef0db4b205de6328 
+Refreshing native plugins compatible for Editor in 5.11 ms, found 5 plugins.
+
+Asset Pipeline Refresh (id=6e1b384fca2f58745bcd5b1dfb2f2a16): Total: 22.446 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=3 (actual=2, local cache=1, cache server=0)
+		Asset DB Process Time: managed=31 ms, native=18072 ms
+		Asset DB Callback time: managed=117 ms, native=11 ms
+		Scripting: domain reloads=1, domain reload time=1778 ms, compile time=2433 ms, other=0 ms
+		Project Asset Count: scripts=1593, non-scripts=2453
+		Asset File Changes: new=0, changed=3, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 3.742ms
+	ApplyChangesToAssetFolders: 0.656ms
+	Scan: 25.781ms
+	Collect global state as custom dependencies: 3.301ms
+	OnSourceAssetsModified: 0.927ms
+	CategorizeScriptCompilationAssets: 0.087ms
+	ProcessAssetsWithTransientArtifactChanges: 6.930ms
+	CategorizeAssets: 56.510ms
+	CompileScripts: 2433.242ms
+	ImportOutOfDateAssets: 17964.667ms (17767.054ms without children)
+		ImportManagerImport: 159.762ms (2.427ms without children)
+		CollectScriptTypesHashes: 1.673ms
+		ReloadNativeAssets: 1.353ms
+		UnloadImportedAssets: 6.098ms
+		ReloadImportedAssets: 2.727ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.661ms
+		ImportSchedulerStart: 29.708ms
+	PostProcessAllAssets: 119.196ms
+		XRBuildSystem.XRAssetImported 1.348ms
+		PostProcessCallbackCreateDeferredMaterials 0.102ms
+		MonoPostProcessAllAssets: 117.013ms
+			AssetCallbacks.OnPostprocessAllAssets 51.278ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 11.077ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 6.551ms
+			AssetChangedListener.OnPostprocessAllAssets 5.997ms
+			AssetPostprocessor.OnPostprocessAllAssets 4.480ms
+			SyncVS.PostprocessSyncProject 4.229ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 3.740ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 3.341ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 2.610ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 2.062ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.327ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.035ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.898ms
+			MaterialPostprocessor.OnPostprocessAllAssets 0.848ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.785ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.589ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.581ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.517ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.443ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.435ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.362ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.326ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.322ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.313ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.307ms
+			PostProcessor.OnPostprocessAllAssets 0.303ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.300ms
+			AssetEvents.OnPostprocessAllAssets 0.299ms
+			SampleDependencyImporterPostProcessor.OnPostprocessAllAssets 0.293ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.271ms
+			EnvironmentAssetPostprocessor.OnPostprocessAllAssets 0.242ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.218ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.189ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.161ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.142ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.109ms
+	PostAssetChangesProfiler: 8.718ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.225ms
+	PersistCurrentRevisions: 2.092ms
+	GenerateScriptTypeHashes: 3.497ms
+	GenerateScriptTypeSerializationHashes: 5.892ms
+	Untracked: 1813.699ms
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+GPU Resident Drawer created.
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=121282ce75ad8a44ca42ebf273a8e901): Total: 0.006 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+MonoPathRemapper: Attempts to remap: 260649; Successful remaps: 22036
+Serialized file version minimum: 23, current 23
+[LAYOUT] About to save layout C:\Users\ANUP KUMAR CHAUDHARY\OneDrive\Desktop\chair projection ar\chair projection ar\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/ANUP KUMAR CHAUDHARY/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+Killing ADB server in 0.0647495 seconds.
+GPU Resident Drawer disposed.
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+[Licensing::IpcConnector] LicenseClient-ANUP KUMAR CHAUDHARY-6000.5.5-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-ANUP KUMAR CHAUDHARY-6000.5.5 channel disconnected successfully.
+Shut down.
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+debugger-agent: Unable to listen on 3572
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1791530783059,"processId":20456,"allocatedMemory":55036528,"memoryLabels":[{"Default":239865},{"Permanent":15516},{"NewDelete":68285},{"Thread":4197560},{"Manager":2338533},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":858128},{"Material":24},{"GfxDevice":55328},{"Animation":952},{"Audio":1544},{"FreeType":8},{"FontEngine":736},{"Physics":2146},{"Physics2D":16},{"Serialization":222776},{"Input":45280},{"JobScheduler":256},{"TextLib":24157},{"Mono":48},{"MonoCode":128},{"ScriptingNativeRuntime":2144204},{"BaseObject":1856604},{"Resource":1208},{"Renderer":3088},{"Transform":4685},{"File":9943},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":9980},{"StaticString":3808},{"Utility":2673970},{"Curl":48},{"PoolAlloc":2840},{"AI":80},{"TypeTree":361699},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":6952},{"WebRequest":25456},{"VR":47258},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":33052944},{"Camera":17},{"Secure":2993},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":192},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":552},{"Hierarchy":1176},{"UIElements":952056},{"CoreStats":13688},{"Identifiers":6768},{"Gui":267892},{"EditorUtility":281272},{"VersionControl":8},{"Undo":931},{"AssetDatabase":4766830},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":35346},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":64},{"DrivenProperties":72},{"LocalIPC":226},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3486},{"Windowing":456},{"TLS":34708},{"Licensing":664},{"AssetReference":32},{"IPCStream":32}]}
